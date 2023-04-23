@@ -1,0 +1,97 @@
+ *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+ }
+ .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: auto 5%;
+    grid-template-areas: "one two two two two two two two two two three three three three three three three three three  four" "five six six six six six six six six six  seven seven seven seven seven seven seven seven seven eight";
+    gap: 20px;
+  }
+  .one{
+    grid-area: one;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: fit-content;
+  }
+  .two{
+    grid-area: two;
+    
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+  .three{
+    grid-area: three;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+  .four{
+    grid-area: four;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: fit-content;
+
+  }
+  .five{
+    grid-area: five;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: fit-content;
+
+  }
+  .six{
+    grid-area: six;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+  .seven{
+    grid-area: seven;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+  }
+  .eight{
+    grid-area: eight;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: fit-content;
+
+  }
